@@ -1,22 +1,27 @@
 [
   {
     "repository": "CandyDevices/device_oppo_common",
-    "target_path": "device/oppo/common"
+    "target_path": "device/oppo/common",
+    "branch": "c7.1.2"
   },
   {
     "repository": "CandyDevices/kernel_oneplus_msm8998",
-    "target_path": "kernel/oneplus/msm8996"
+    "target_path": "kernel/oneplus/msm8996",
+    "branch": "c7.1.2"
   },
   {
     "repository": "LineageOS/android_vendor_nxp-nfc_opensource_frameworks",
-    "target_path": "vendor/nxp-nfc/opensource/frameworks"
+    "target_path": "vendor/nxp-nfc/opensource/frameworks",
+    "branch": "cm-14.1"
   },
   {
     "repository": "LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci",
-    "target_path": "vendor/nxp-nfc/opensource/libnfc-nci"
+    "target_path": "vendor/nxp-nfc/opensource/libnfc-nci",
+    "branch": "cm-14.1"
   },
   {
     "repository": "LineageOS/android_vendor_nxp-nfc_opensource_Nfc",
-    "target_path": "vendor/nxp-nfc/opensource/Nfc"
+    "target_path": "vendor/nxp-nfc/opensource/Nfc",
+    "branch": "cm-14.1"
   }
 ]
