@@ -209,6 +209,9 @@ BOARD_SUPPRESS_EMMC_WIPE := true
 TARGET_RIL_VARIANT := caf
 PROTOBUF_SUPPORTED := true
 
+# Ship with root?
+WITH_ROOT := true
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy
