@@ -22,8 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 
 # Inherit some common Candy stuff.
-$(call inherit-product, vendor/candy/config/common.mk)
-$(call inherit-product, vendor/candy/config/gsm.mk)
+$(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
 PRODUCT_NAME := candy_cheeseburger
 PRODUCT_DEVICE := cheeseburger
@@ -39,6 +38,6 @@ TARGET_VENDOR_DEVICE_NAME := OnePlus5
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=OnePlus5 PRODUCT_NAME=OnePlus5
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=OnePlus/OnePlus5/OnePlus5:7.1.1/NMF26X/08141919:user/release-keys
+    BUILD_FINGERPRINT=OnePlus/OnePlus5/OnePlus5:7.1.1/NMF26X/10061059:user/release-keys
 
 TARGET_VENDOR := oneplus
