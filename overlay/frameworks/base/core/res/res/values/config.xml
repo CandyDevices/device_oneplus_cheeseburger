@@ -451,4 +451,7 @@
          proximity sensor (ideally < 300ms) -->
     <bool name="config_proximityCheckOnWake">true</bool>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+
+    <!-- Whether device has DASH charging support -->
+    <bool name="config_hasDashCharger">true</bool>
 </resources>
