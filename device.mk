@@ -309,6 +309,10 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Pocketmode
+PRODUCT_PACKAGES += \
+    OneplusPocketMode
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0-impl \
