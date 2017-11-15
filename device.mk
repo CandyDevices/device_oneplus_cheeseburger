@@ -193,8 +193,8 @@ PRODUCT_PACKAGES += \
     libtinyxml
 
 # Doze mode
-#PRODUCT_PACKAGES += \
-#    OneplusDoze
+PRODUCT_PACKAGES += \
+    OneplusDoze
 
 # DRM
 PRODUCT_PACKAGES += \
