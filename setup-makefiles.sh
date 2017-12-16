@@ -28,7 +28,7 @@ if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
 CANDY_ROOT="$MY_DIR"/../../..
 
-HELPER="$CANDY_ROOT"/vendor/slim/build/tools/extract_utils.sh
+HELPER="$CANDY_ROOT"/vendor/candy/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
