@@ -38,7 +38,7 @@ TARGET_OTA_ASSERT_DEVICE := OnePlus5,cheeseburger,oneplus5,op5,A5000
 PRODUCT_SKIP_FINGERPRINT_FROM_FILE := true
 
 # Use Snapdragon LLVM, if available
-TARGET_USE_SDCLANG := true
+TARGET_USE_SDCLANG := false
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := msm8998
