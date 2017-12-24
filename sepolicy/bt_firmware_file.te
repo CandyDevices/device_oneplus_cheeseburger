@@ -1,1 +1,3 @@
 allow bt_firmware_file rootfs:filesystem { associate };
+
+r_dir_file(bluetooth, firmware_file)
