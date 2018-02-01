@@ -1,5 +1,10 @@
 [
   {
+    "repository": "CandyDevices/device_oneplus_cheeseburger",
+    "target_path": "device/oneplus/cheeseburger",
+    "branch": "c8.1"
+  },
+  {
     "repository": "CandyDevices/device_oneplus_msm8998-common",
     "target_path": "device/oneplus/msm8998-common",
     "branch": "c8.1"
