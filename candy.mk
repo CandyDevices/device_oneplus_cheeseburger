@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from cheeseburger device
 $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 
-# Inherit some common Validus stuff.
+# Inherit some common Candy stuff.
 $(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
 PRODUCT_NAME := candy_cheeseburger
